@@ -1,6 +1,7 @@
 🛒 Walmart Sales Forecasting – Retail Analysis Project
 
 📌 Project Overview
+
 This project analyzes historical Walmart sales data (2010–2012) to:
 Identify top-performing stores
 Analyze seasonal trends
@@ -10,14 +11,14 @@ Build a predictive sales forecasting model
 The objective is to understand demand patterns and develop a model to forecast weekly sales.
 
 📂 Dataset Description
+
 The dataset includes weekly sales data for 45 Walmart stores with the following features:
-Store
-Date
-Weekly_Sales
-Holiday_Flag
-Temperature
-Fuel_Price
-CPI
+Store,
+Date,
+Weekly_Sales,
+Holiday_Flag,
+Temperature,
+Fuel_Pri,
 Unemployment
 
 🔎 Exploratory Data Analysis (EDA)
@@ -63,16 +64,17 @@ Economic indicators have limited predictive impact on sales. Time-based features
 
 🛠 Technologies Used
 
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Scikit-learn
-Jupyter Notebook
+Python,
+Pandas,
+NumPy,
+Matplotlib,
+Seaborn,
+Scikit-learn,
+Jupyter Notebook,
 VS Code
 
 🎯 Key Takeaways
+
 Sales show strong seasonality.
 Holiday spikes are concentrated in December.
 Linear regression provides baseline performance.
