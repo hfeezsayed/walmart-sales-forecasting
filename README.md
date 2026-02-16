@@ -21,23 +21,29 @@ CPI
 Unemployment
 
 🔎 Exploratory Data Analysis (EDA)
+
 1️⃣ Store Performance
+
 Store 20 generated the highest total sales.
 Store 14 showed the highest sales volatility.
 
 2️⃣ Holiday Analysis
+
 Holiday weeks increased sales by approximately 0.10%.
 December consistently recorded peak sales across all years.
 
 3️⃣ Quarterly Growth (Q3 2012)
+
 Most stores experienced negative growth in Q3 2012 compared to Q2 2012.
 
 4️⃣ Monthly & Semester Trends
+
 Strong seasonal pattern observed.
 H2 outperformed H1 in 2010 and 2011.
 H2 2012 decline due to incomplete year data.
 
 🤖 Machine Learning Model
+
 A Linear Regression model was built for Store 1 using:
 Fuel Price
 CPI
@@ -46,14 +52,17 @@ Holiday Flag
 Month, Year, Week
 
 Model Performance:
+
 R² Score ≈ 0.25
 MAE ≈ 46,000
 RMSE ≈ 67,800
 
 Conclusion:
+
 Economic indicators have limited predictive impact on sales. Time-based features significantly influence forecasting accuracy.
 
 🛠 Technologies Used
+
 Python
 Pandas
 NumPy
